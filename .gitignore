@@ -2,5 +2,5 @@
 temp.ipynb
 
 # hidden files
-*.csv
-*.pdf
+files/csv/*.csv
+files/pdf/*.pdf
