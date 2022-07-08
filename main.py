@@ -42,3 +42,7 @@ books = {
 df = pd.DataFrame.from_dict(books, orient="index")
 df = df.transpose()
 
+# Transform from dataframe to csv file
+print("Enter file name with csv extension")
+user_input = input()
+df.to_csv("file.csv", index=False)
